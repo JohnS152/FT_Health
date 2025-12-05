@@ -88,6 +88,12 @@ if(UnArmouredMaterial)
 	UnArmouredMaterial->(A Method to call);
 }
 ```
+
+### Pointers and materials
+In Unreal certian type have to be pointers (uses the * symbol), mainly for us any thing begining with a U e.g. UMaterial, UStaticMesh.
+
+Remember our BasicFoe has a body Static Mesh Component that we can access to change the material.
+
 ## Challenges
 Test your might
 
@@ -108,4 +114,3 @@ Test your might
 - Possess our cubes and let them move towards the player in a basic manner.
 
 # Reference
-Content is made by Connah Kendrick (Connah.Kendrick@mmu.ac.uk) using the Unreal Engine FPS Template for the MMU 1st year Game Mechanics Module taught to both Game Development and Game Design Students. 

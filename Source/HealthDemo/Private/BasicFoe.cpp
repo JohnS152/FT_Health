@@ -40,13 +40,6 @@ void ABasicFoe::Tick(float DeltaTime)
 
 }
 
-// Called to bind functionality to input
-/*void ABasicFoe::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}*/
-
 void ABasicFoe::Died()
 {
 	UE_LOG(LogTemp, Warning, TEXT("MURDER!"));

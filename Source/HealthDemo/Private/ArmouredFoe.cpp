@@ -4,7 +4,15 @@
 #include "ArmouredFoe.h"
 #include "ArmouredHealth.h"
 
-AArmouredFoe::AArmouredFoe()
+/// <summary>
+/// notice how the constructors super works differently
+/// </summary>
+AArmouredFoe::AArmouredFoe() : Super()
+{
+	
+}
+
+void AArmouredFoe::BeginPlay()
 {
 	Super::BeginPlay();
 }
