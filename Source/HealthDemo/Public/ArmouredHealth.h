@@ -19,4 +19,12 @@ class HEALTHDEMO_API UArmouredHealth : public UHealth
 	public:
 		// notice i have to say this is an override
 		void TakeDamage(int Damage) override;
+		UArmouredHealth();
+
+	private:
+		// make our variables private only the armour script should deal with the armour values
+		UPROPERTY(VisibleAnywhere, Category = "Armour|MaxArmour")
+		int MaxArmour = 5;
+		UPROPERTY(VisibleAnywhere, Category = "Armour|AP")
+		int AP;
 };

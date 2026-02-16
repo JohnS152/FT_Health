@@ -15,4 +15,15 @@ AArmouredFoe::AArmouredFoe() : Super()
 void AArmouredFoe::BeginPlay()
 {
 	Super::BeginPlay();
+
+
+}
+
+
+void AArmouredFoe::ArmourBroken()
+{
+	if (UnArmouredMaterial)
+	{
+		Body->SetMaterial(0, UnArmouredMaterial);
+	}
 }
